@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerPuffBoys.SWKOM.Package
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerPuffBoys.SWKOM.Package.Services.DTOs", "src\PowerPuffBoys.SWKOM.Package.Services.DTOs\PowerPuffBoys.SWKOM.Package.Services.DTOs.csproj", "{B8D18F25-F379-4B87-ACCC-F8A17E0AED38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerPuffBoys.SWKOM.Package.Interfaces", "src\PowerPuffBoys.SWKOM.Package.Interfaces\PowerPuffBoys.SWKOM.Package.Interfaces.csproj", "{83F52614-9487-4E46-B750-3F6590839A14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerPuffBoys.SWKOM.Package.Services.Interfaces", "src\PowerPuffBoys.SWKOM.Package.Interfaces\PowerPuffBoys.SWKOM.Package.Services.Interfaces.csproj", "{83F52614-9487-4E46-B750-3F6590839A14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
