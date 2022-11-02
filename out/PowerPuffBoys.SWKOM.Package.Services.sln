@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerPuffBoys.SWKOM.Package
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerPuffBoys.SWKOM.Package.Services.DTOs", "src\PowerPuffBoys.SWKOM.Package.Services.DTOs\PowerPuffBoys.SWKOM.Package.Services.DTOs.csproj", "{B8D18F25-F379-4B87-ACCC-F8A17E0AED38}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerPuffBoys.SWKOM.Package.Services.Interfaces", "src\PowerPuffBoys.SWKOM.Package.Interfaces\PowerPuffBoys.SWKOM.Package.Services.Interfaces.csproj", "{83F52614-9487-4E46-B750-3F6590839A14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerPuffBoys.SWKOM.Package.Services.Interfaces", "src\PowerPuffBoys.SWKOM.Package.Services.Interfaces\PowerPuffBoys.SWKOM.Package.Services.Interfaces.csproj", "{431A2559-7010-42F4-8313-7A3BE2D734D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{B8D18F25-F379-4B87-ACCC-F8A17E0AED38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8D18F25-F379-4B87-ACCC-F8A17E0AED38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8D18F25-F379-4B87-ACCC-F8A17E0AED38}.Release|Any CPU.Build.0 = Release|Any CPU
-		{83F52614-9487-4E46-B750-3F6590839A14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{83F52614-9487-4E46-B750-3F6590839A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{83F52614-9487-4E46-B750-3F6590839A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{83F52614-9487-4E46-B750-3F6590839A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431A2559-7010-42F4-8313-7A3BE2D734D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431A2559-7010-42F4-8313-7A3BE2D734D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431A2559-7010-42F4-8313-7A3BE2D734D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431A2559-7010-42F4-8313-7A3BE2D734D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
