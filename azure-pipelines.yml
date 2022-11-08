@@ -13,7 +13,7 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- script: dotnet build ./out/PowerPuffBoys.SWKOM.Package.Services.sln --configuration $(buildConfiguration)
+- script: dotnet build ./out/PowerPuffBoys.SWKOM.Package.Services.sln --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)
   displayName: 'dotnet build $(buildConfiguration)'
 
 - task: PublishBuildArtifacts@1    
