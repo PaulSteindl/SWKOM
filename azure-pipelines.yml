@@ -13,11 +13,13 @@ steps:
   inputs:
     version: '6.x'
 
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'restore'
-    feedsToUse: 'select'
-    vstsFeed: 'my-vsts-feed'
+# - task: DotNetCoreCLI@2
+#   displayName: 'NugetRestore'
+#   inputs:
+#     command: 'restore'
+#     feedsToUse: 'select'
+#     vstsFeed: 'my-vsts-feed'
+#     projects: '**/*.sln'
 
 - task: DotNetCoreCLI@2
   displayName: Build
