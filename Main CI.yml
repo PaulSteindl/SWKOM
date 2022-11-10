@@ -10,6 +10,7 @@ variables:
 
 steps:
 - task: UseDotNet@2
+  displayName: GetVersion
   inputs:
     version: '6.x'
 
