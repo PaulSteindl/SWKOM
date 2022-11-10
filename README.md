@@ -1,2 +1,2 @@
-this is the 26. ci test
+this is the 25. ci test
 
