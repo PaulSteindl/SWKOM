@@ -13,6 +13,7 @@
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..</DockerfileContext>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'OpenAPI' " />
   <ItemGroup>
     <ProjectReference Include="../PowerPuffBoys.SWKOM.Package.Services.DTOs/PowerPuffBoys.SWKOM.Package.Services.DTOs.csproj" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.8" />
