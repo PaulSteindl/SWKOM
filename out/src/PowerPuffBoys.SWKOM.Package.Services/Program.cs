@@ -27,7 +27,7 @@ namespace PowerPuffBoys.SWKOM.Package.Services
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                    webBuilder.UseStartup<Startup>()
-                             .UseUrls("http://0.0.0.0:8080/");
+                             .UseUrls("http://0.0.0.0:80/");
                 });
     }
 }
