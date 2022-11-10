@@ -2,13 +2,11 @@ pr:
   branches:
     include:
       - master
-      - releases/*
-    exclude:
-      - ci-test
 
-# trigger:
-#   - master
-#   - releases/*
+trigger:
+  branches:
+    exclude:
+      - '*'
 
 pool:
   vmImage: 'ubuntu-latest'
