@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\src\PowerPuffBoys.SWKOM.Package.Services.Interfaces\PowerPuffBoys.SWKOM.Package.Services.Interfaces.csproj" />
+  </ItemGroup>
+
 </Project>
