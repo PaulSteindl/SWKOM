@@ -1,4 +1,6 @@
-﻿namespace PowerPuffBoys.SWKOM.BusinessLogic
+﻿using PowerPuffBoys.SWKOM.Package.Services.Interfaces;
+
+namespace PowerPuffBoys.SWKOM.BusinessLogic
 {
     public class ParcelLogic : IParcelLogic
     {
