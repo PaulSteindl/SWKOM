@@ -9,6 +9,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerPuffBoys.SWKOM.Package
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerPuffBoys.SWKOM.Package.Services.Interfaces", "src\PowerPuffBoys.SWKOM.Package.Services.Interfaces\PowerPuffBoys.SWKOM.Package.Services.Interfaces.csproj", "{431A2559-7010-42F4-8313-7A3BE2D734D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerPuffBoys.SWKOM.BusinessLogic.Entities", "PowerPuffBoys.SWKOM.BusinessLogic.Entities\PowerPuffBoys.SWKOM.BusinessLogic.Entities.csproj", "{7E58EBD9-7B1C-4A4B-A889-A8A83BEE2F38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerPuffBoys.SWKOM.BusinessLogic.Interfaces", "PowerPuffBoys.SWKOM.BusinessLogic.Interfaces\PowerPuffBoys.SWKOM.BusinessLogic.Interfaces.csproj", "{723BC8C4-0859-4441-8826-EC331A60E726}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerPuffBoys.SWKOM.BusinessLogic", "PowerPuffBoys.SWKOM.BusinessLogic\PowerPuffBoys.SWKOM.BusinessLogic.csproj", "{7C994779-3CA6-47BE-90F3-40A3524D738A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerPuffBoys.SWKOM.BuisnessLogic.Tests", "PowerPuffBoys.BuisnessLogic.Tests\PowerPuffBoys.SWKOM.BuisnessLogic.Tests.csproj", "{F5AA1345-6193-4327-8155-E51725EA4A45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +35,22 @@ Global
 		{431A2559-7010-42F4-8313-7A3BE2D734D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{431A2559-7010-42F4-8313-7A3BE2D734D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{431A2559-7010-42F4-8313-7A3BE2D734D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E58EBD9-7B1C-4A4B-A889-A8A83BEE2F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E58EBD9-7B1C-4A4B-A889-A8A83BEE2F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E58EBD9-7B1C-4A4B-A889-A8A83BEE2F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E58EBD9-7B1C-4A4B-A889-A8A83BEE2F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{723BC8C4-0859-4441-8826-EC331A60E726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{723BC8C4-0859-4441-8826-EC331A60E726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{723BC8C4-0859-4441-8826-EC331A60E726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{723BC8C4-0859-4441-8826-EC331A60E726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C994779-3CA6-47BE-90F3-40A3524D738A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C994779-3CA6-47BE-90F3-40A3524D738A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C994779-3CA6-47BE-90F3-40A3524D738A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C994779-3CA6-47BE-90F3-40A3524D738A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5AA1345-6193-4327-8155-E51725EA4A45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5AA1345-6193-4327-8155-E51725EA4A45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5AA1345-6193-4327-8155-E51725EA4A45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5AA1345-6193-4327-8155-E51725EA4A45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
