@@ -16,6 +16,7 @@
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'OpenAPI' " />
   <ItemGroup>
     <ProjectReference Include="../PowerPuffBoys.SWKOM.Package.Services.DTOs/PowerPuffBoys.SWKOM.Package.Services.DTOs.csproj" />
+    <ProjectReference Include="..\..\PowerPuffBoys.SWKOM.BusinessLogic.Entities\PowerPuffBoys.SWKOM.BusinessLogic.Entities.csproj" />
     <PackageReference Include="AutoMapper" Version="12.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.8" />
     <PackageReference Include="Swashbuckle.AspNetCore.Newtonsoft" Version="6.4.0" />
