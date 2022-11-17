@@ -10,12 +10,14 @@
 
 using System;
 using System.IO;
+using AutoMapper;
+using AutoMapper.Internal;
+using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json.Converters;
@@ -24,6 +26,7 @@ using PowerPuffBoys.SWKOM.Package.Services.Authentication;
 using PowerPuffBoys.SWKOM.Package.Services.Filters;
 using PowerPuffBoys.SWKOM.Package.Services.OpenApi;
 using PowerPuffBoys.SWKOM.Package.Services.Formatters;
+using PowerPuffBoys.SWKOM.Package.Services.Helpers;
 
 namespace PowerPuffBoys.SWKOM.Package.Services
 {
@@ -100,6 +103,7 @@ namespace PowerPuffBoys.SWKOM.Package.Services
                 });
                 services
                     .AddSwaggerGenNewtonsoftSupport();
+            services.AddAutoMapper(typeof(AutomapperProfiles).Assembly);
         }
 
         /// <summary>
