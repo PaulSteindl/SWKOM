@@ -5,29 +5,29 @@ namespace PowerPuffBoys.SWKOM.BusinessLogic.Entities
         /// <summary>
         /// Gets or Sets Weight
         /// </summary>
-        public float Weight { get; set; }
+        public float Weight { get; set; } // von parcel
 
         /// <summary>
         /// Gets or Sets Recipient
         /// </summary>
-        public Recipient Recipient { get; set; }
+        public Recipient Recipient { get; set; } // von parcel
 
         /// <summary>
         /// Gets or Sets Sender
         /// </summary>
-        public Recipient Sender { get; set; }
+        public Recipient Sender { get; set; } // von parcel
 
         /// <summary>
         /// The tracking ID of the parcel. 
         /// </summary>
         /// <value>The tracking ID of the parcel. </value>
-        public string TrackingId { get; set; }
+        public string TrackingId { get; set; } // von NewParcelInfo
 
         /// <summary>
         /// State of the parcel.
         /// </summary>
         /// <value>State of the parcel.</value>
-        public enum StateEnum
+        public enum StateEnum // von TrackingInformation
         {
 
             /// <summary>
@@ -60,18 +60,18 @@ namespace PowerPuffBoys.SWKOM.BusinessLogic.Entities
         /// State of the parcel.
         /// </summary>
         /// <value>State of the parcel.</value>
-        public StateEnum State { get; set; }
+        public StateEnum State { get; set; } // von TrackingInformation
 
         /// <summary>
         /// Hops visited in the past.
         /// </summary>
         /// <value>Hops visited in the past.</value>
-        public List<HopArrival> VisitedHops { get; set; }
+        public List<HopArrival> VisitedHops { get; set; } // von TrackingInformation
 
         /// <summary>
         /// Hops coming up in the future - their times are estimations.
         /// </summary>
         /// <value>Hops coming up in the future - their times are estimations.</value>
-        public List<HopArrival> FutureHops { get; set; }
+        public List<HopArrival> FutureHops { get; set; } // von TrackingInformation
     }
 }
