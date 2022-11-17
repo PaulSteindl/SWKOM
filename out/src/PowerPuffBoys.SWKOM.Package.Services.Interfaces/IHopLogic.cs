@@ -1,6 +1,6 @@
 ﻿namespace PowerPuffBoys.SWKOM.Package.Services.Interfaces
 {
-    public class IHopLogic
+    public interface IHopLogic
     {
     }
 }

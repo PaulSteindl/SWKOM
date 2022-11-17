@@ -1,8 +1,17 @@
 ﻿using PowerPuffBoys.SWKOM.Package.Services.Interfaces;
+using PowerPuffBoys.SWKOM.BusinessLogic.Entities;
+using FluentValidation;
 
 namespace PowerPuffBoys.SWKOM.BusinessLogic
 {
-    internal class ErrorLogic
+    public class ErrorLogic : IErrorLogic
     {
+    }
+
+    public class ErrorValidatior : AbstractValidator<Error>
+    {
+        public ErrorValidatior()
+        {
+        }
     }
 }
